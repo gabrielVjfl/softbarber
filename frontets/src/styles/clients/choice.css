@@ -1,0 +1,56 @@
+.container_choice {
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-image: url('../../assets/barcurti.jpg');
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.title_choice {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 23pt;
+    color: white;
+    margin-top: 10vh;
+}
+#btnchoice1 {
+    background-color: black;
+    border: 1px solid purple;
+    font-family: 'Kiwi Maru', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    width: 330px;
+    height: 70px;
+    font-size: 15pt;
+    border-radius: 10px;
+    margin-top: 8vh;
+    color: white;
+    transition: all 0.8s;
+}
+#btnchoice2 {
+    background-color: black;
+    border: 1px solid rgb(35, 184, 5);
+    font-family: 'Kiwi Maru', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    width: 270px;
+    height: 70px;
+    font-size: 15pt;
+    border-radius: 10px;
+    margin-top: 8vh;
+    color: white;
+    transition: all 0.8s;
+}
+#btnchoice1:hover {
+    opacity: 0.6;
+    transition: all 0.8s;
+}
+#btnchoice2:hover {
+    opacity: 0.6;
+    transition: all 0.8s;
+}
+

@@ -1,0 +1,72 @@
+.container_landing {
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-image: url('../../assets/landing.png');
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.title_landing {
+    color: white;
+    font-size: 35px;
+    margin-top: 10vh;
+    font-family: 'Kiwi Maru', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.template_buttons {
+margin-top: 10vh;
+
+}
+.btn_barbeiro {
+border: none;
+width: 200px;
+height: 70px;
+font-size: 22px;
+border-radius: 10px;
+background-color: black;
+border: 2px solid blue;
+color: orange;
+font-family: 'Nunito' arial;
+font-weight: 600;
+transition: all 0.7s;
+margin-right: 2vw;
+}
+.btn_barbeiro:hover {
+    background-color: grey;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: all 0.7s;
+}
+.btn_cliente {
+border: none;
+width: 200px;
+height: 70px;
+font-size: 22px;
+border-radius: 10px;
+background-color: black;
+border: 2px solid purple;
+color: orange;
+font-family: 'Nunito' arial;
+font-weight: 600;
+margin-left: 2vw;
+transition: all 0.7s;
+}
+.mustache {
+    width: 80px;
+}
+
+.btn_cliente:hover {
+background-color: grey;
+border: 2px solid rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+transition: all 0.7s;
+}
+
+
